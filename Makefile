@@ -1,2 +1,2 @@
 ci:
-    ./vendor/bin/phpunit tests --colors=always
+	./vendor/bin/phpunit tests --colors=always
