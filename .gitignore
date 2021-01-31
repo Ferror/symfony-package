@@ -1,1 +1,6 @@
 /vendor/
+
+###> phpunit/phpunit ###
+.phpunit
+.phpunit.result.cache
+###< phpunit/phpunit ###
