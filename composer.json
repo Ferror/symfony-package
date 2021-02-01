@@ -1,16 +1,16 @@
 {
-    "name": "ferror/symfony-bundle",
+    "name": "ferror/symfony-package",
     "license": "MIT",
     "description": "",
-    "type": "symfony-bundle",
+    "type": "symfony-package",
     "autoload" : {
         "psr-4" : {
-            "Ferror\\Bundle\\SymfonyBundle\\" : "src/"
+            "Ferror\\SymfonyPackage\\" : "src/"
         }
     },
     "autoload-dev" : {
         "psr-4" : {
-            "Ferror\\Bundle\\SymfonyBundle\\" : "tests/"
+            "Ferror\\SymfonyPackage\\" : "tests/"
         }
     },
     "require": {
