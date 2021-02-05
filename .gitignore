@@ -4,3 +4,7 @@
 .phpunit
 .phpunit.result.cache
 ###< phpunit/phpunit ###
+
+###> composer/composer ###
+composer.lock
+###< composer/composer ###
