@@ -18,10 +18,8 @@ return static function (ContainerConfigurator $containerConfigurator): void {
         __DIR__ . '/src',
         __DIR__ . '/tests',
     ]);
-
     $parameters->set(Option::SETS, [
-        // run and fix, one by one
-//         SetList::SPACES,
+        // SetList::SPACES,
         // SetList::ARRAY,
         // SetList::DOCBLOCK,
          SetList::NAMESPACES,
