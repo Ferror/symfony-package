@@ -12,18 +12,20 @@
         convertWarningsToExceptions="true"
         beStrictAboutTestsThatDoNotTestAnything="false"
         stopOnFailure="false"
-        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd"
+        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd"
 >
     <coverage>
         <include>
             <directory>src</directory>
         </include>
     </coverage>
+
     <php>
         <env name="SHELL_VERBOSITY" value="-1"/>
     </php>
+
     <testsuites>
-        <testsuite name="Project Test Suite">
+        <testsuite name="all">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

@@ -18,15 +18,8 @@ return static function (ContainerConfigurator $containerConfigurator): void {
         __DIR__ . '/src',
         __DIR__ . '/tests',
     ]);
-    $parameters->set(Option::SETS, [
-        // SetList::SPACES,
-        // SetList::ARRAY,
-        // SetList::DOCBLOCK,
-         SetList::NAMESPACES,
-        // SetList::CONTROL_STRUCTURES,
-        // SetList::CLEAN_CODE,
-        // SetList::PSR_12,
-        // SetList::PHP_70,
-        // SetList::PHP_71,
-    ]);
+    $containerConfigurator->import(SetList::CLEAN_CODE);
+    $containerConfigurator->import(SetList::PSR_12);
+    $containerConfigurator->import(SetList::SYMFONY);
+    $containerConfigurator->import(SetList::SYMFONY_RISKY);
 };
