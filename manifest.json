@@ -1,8 +1,0 @@
-{
-    "bundles": {
-        "Ferror\\Bundle\\SymfonyPackage": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

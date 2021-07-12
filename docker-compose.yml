@@ -1,6 +1,6 @@
 services:
     symfony-package:
-        image: ferror/symfony-image:7.4
+        image: ferror/symfony-image:8.0
         command: ["make", "run"]
         volumes:
             - ./:/app:delegated
